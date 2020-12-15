@@ -29,6 +29,9 @@ permalink: /changelog/
 * **browser-toolbar**
   * 🌟 Added API to show site permission indicators for more information see [#9131](https://github.com/mozilla-mobile/android-components/issues/9131).
 
+* **feature-sitepermissions**
+  * ⚠️ **This is a breaking change**: The `SitePermissions` constructor, now parameter types for `autoplayAudible` and `autoplayInaudible` have changed to `AutoplayStatus` as autoplay permissions only support two status `ALLOWED` and `BLOCKED`.
+
 * **browser-awesomebar**:
     * Awesomebar can now be customized for bottom toolbar using the [customizeForBottomToolbar] property
 
